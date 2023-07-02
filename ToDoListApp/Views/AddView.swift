@@ -22,13 +22,13 @@ struct AddView: View {
                 TextField("Type here...", text: $textFieldText)
                     .padding(.horizontal)
                     .frame(height: 55)
-                    .background(.white)
+                    .background(Color.white)
                     .cornerRadius(10)
                 Button {
                     saveButtonPressed()
                 } label: {
                     Text("Save")
-                        .foregroundColor(.white)
+                        .foregroundColor(Color.white)
                         .font(.headline)
                         .frame(height: 55)
                         .frame(maxWidth: .infinity)
